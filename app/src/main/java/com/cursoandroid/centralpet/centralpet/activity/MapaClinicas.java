@@ -1,4 +1,4 @@
-package com.cursoandroid.centralpet.centralpet;
+package com.cursoandroid.centralpet.centralpet.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

@@ -1,6 +1,5 @@
 package com.cursoandroid.centralpet.centralpet.activity;
 
-import android.app.DatePickerDialog;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AlertDialog;
@@ -10,9 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -21,10 +18,6 @@ import com.cursoandroid.centralpet.centralpet.R;
 import com.cursoandroid.centralpet.centralpet.activity.bancodados.DataBase;
 import com.cursoandroid.centralpet.centralpet.activity.dominio.RepositorioComp;
 import com.cursoandroid.centralpet.centralpet.activity.dominio.entidades.Compromissos;
-
-import java.text.DateFormat;
-import java.util.Calendar;
-import java.util.Date;
 
 public class CadastroAgenda extends AppCompatActivity {
 

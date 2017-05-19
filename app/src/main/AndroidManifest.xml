@@ -49,7 +49,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapaClinicas"
+            android:name=".activity.MapaClinicas"
             android:label="@string/title_activity_mapa_clinicas"
             android:theme="@style/AppTheme"></activity>
     </application>
