@@ -100,6 +100,6 @@ public class Compromissos implements Serializable{
     @Override
     public String toString(){
 
-        return "Pet: " + nome + "\nCompromisso: " + compromisso + "\t  ...";
+        return "Pet: " + nome + "\nCompromisso: " + compromisso + "\t ...";
     }
 }
