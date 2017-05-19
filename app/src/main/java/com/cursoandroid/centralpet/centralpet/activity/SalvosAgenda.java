@@ -35,7 +35,7 @@ public class SalvosAgenda extends AppCompatActivity implements AdapterView.OnIte
     private SQLiteDatabase conn;
     private RepositorioComp repositorioComp;
 
-    private FiltraDados  filtraDados;
+    private FiltraDados filtraDados;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
