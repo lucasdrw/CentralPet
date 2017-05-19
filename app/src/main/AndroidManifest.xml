@@ -49,8 +49,9 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapaClinica"
-            android:label="@string/title_activity_mapa_clinica"></activity>
+            android:name=".MapaClinicas"
+            android:label="@string/title_activity_mapa_clinicas"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
