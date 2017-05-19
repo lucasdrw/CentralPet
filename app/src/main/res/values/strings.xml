@@ -8,5 +8,6 @@
     <string name="action_salvar">Salvar</string>
     <string name="action_deletar">Excluir</string>
     <string name="action_add">Adicionar</string>
+    <string name="title_activity_mapa_clinica">Map</string>
 
 </resources>
