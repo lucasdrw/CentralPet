@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "268617252296",
+    "firebase_url": "https://central-pet.firebaseio.com",
+    "project_id": "central-pet",
+    "storage_bucket": "central-pet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268617252296:android:ad1c4de019837d07",
+        "android_client_info": {
+          "package_name": "com.cursoandroid.centralpet.centralpet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268617252296-7hn9vcgedl8p4thjqbj9h18tejb2r1pl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cursoandroid.centralpet.centralpet",
+            "certificate_hash": "b428cb3ebd00104a21b35509ad320a5fba9f0829"
+          }
+        },
+        {
+          "client_id": "268617252296-1ok4a0o51csr2v20d57s5tff4jhgpf27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFwZF3VTCFTQ9BCdpWe_yJz6AwNqFCgTc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268617252296-1ok4a0o51csr2v20d57s5tff4jhgpf27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

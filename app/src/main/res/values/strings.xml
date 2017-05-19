@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Central Pet</string>
+    <string name="admob_banner_id">ca-app-pub-5567032402574310/5978425786</string>
+    <string name="facebook_app_id">1845036522431534</string>
+
+
+    <string name="action_deslogar">Sair</string>
+    <string name="action_salvar">Salvar</string>
+    <string name="action_deletar">Excluir</string>
+    <string name="action_add">Adicionar</string>
+
+</resources>

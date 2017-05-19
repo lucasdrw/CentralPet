@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">3dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="tela_inicial">1dp</dimen>
+    <dimen name="tam_icon">50dp</dimen>
+    <dimen name="espCad">7dp</dimen>
+    <dimen name="txt_cad">16dp</dimen>
+</resources>
