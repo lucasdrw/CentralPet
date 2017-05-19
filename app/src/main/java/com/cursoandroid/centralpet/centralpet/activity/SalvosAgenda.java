@@ -35,6 +35,8 @@ public class SalvosAgenda extends AppCompatActivity implements AdapterView.OnIte
     private SQLiteDatabase conn;
     private RepositorioComp repositorioComp;
 
+    private FiltraDados filtraDados;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +60,7 @@ public class SalvosAgenda extends AppCompatActivity implements AdapterView.OnIte
             listSalvos.setAdapter(adpComp);
 
 
-            FiltraDados filtraDados = new FiltraDados(adpComp);
+            filtraDados = new FiltraDados(adpComp);
             editPesquisa.addTextChangedListener(filtraDados);
 
         }catch (SQLException e){
@@ -111,6 +113,7 @@ public class SalvosAgenda extends AppCompatActivity implements AdapterView.OnIte
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         adpComp = repositorioComp.buscaComp(this);
+        filtraDados.setArrayAdapter(adpComp);
         listSalvos.setAdapter(adpComp);
     }
 
@@ -121,6 +124,10 @@ public class SalvosAgenda extends AppCompatActivity implements AdapterView.OnIte
 
         private  FiltraDados(ArrayAdapter<Compromissos> arrayAdapter){
 
+            this.arrayAdapter = arrayAdapter;
+        }
+
+        public void setArrayAdapter(ArrayAdapter<Compromissos> arrayAdapter){
             this.arrayAdapter = arrayAdapter;
         }
 
