@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cursoandroid.centralpet.centralpet">
+    package="com.cursoandroid.centralpet.centralpet.activity">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -22,19 +22,19 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name=".activity.MainActivity">
+        <activity android:name="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.tela_menu" />
+        <activity android:name="tela_menu" />
         <activity
-            android:name=".activity.CadastroAgenda"
+            android:name="CadastroAgenda"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".activity.SalvosAgenda"
+            android:name="SalvosAgenda"
             android:windowSoftInputMode="stateHidden" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -46,12 +46,8 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="google_maps_key" />
 
-        <activity
-            android:name=".activity.MapaClinicas"
-            android:label="@string/title_activity_mapa_clinicas"
-            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
